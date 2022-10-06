@@ -19,7 +19,6 @@ def add_role():
     t.save()
     return t
 
-
 def call(N=5):
     for i in range(N):
         full_name = obj.name()
@@ -36,7 +35,6 @@ def call(N=5):
 
         dept= Department.objects.get_or_create(name =  name, location = location)[0]
         emp = Employee.objects.get_or_create(first_name = first_name , last_name = last_name , dept = dept ,salary = salary, bonus = bonus, role = role , phone = phone,hire_date= hire_date)[0]
-
 
 if __name__ == '__main__':
     print("Populating script")
