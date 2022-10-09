@@ -18,7 +18,6 @@ which results in the neat and clean readable output Database.
 ### Technologies used:
 * HTML
 * CSS
-* JavaScript/jQuery 3.1.1
 * Bootstrap
 * Python
 * Django
